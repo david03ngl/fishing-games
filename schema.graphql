@@ -1,0 +1,9 @@
+type Transfer @entity {
+  id: ID!
+  from: Bytes! # address
+  receiver: Bytes! # address
+  amount: BigInt! # uint256
+  message: String! # string
+  timestamp: BigInt! # uint256
+  keyword: String! # string
+}
